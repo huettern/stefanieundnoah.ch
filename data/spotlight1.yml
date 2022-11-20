@@ -3,8 +3,8 @@ style: "style1 orient-right content-align-left image-position-center onscroll-im
 id: "first"
 title : "Save the Date"
 content: |
-  Danke fuer deine Anmeldung
+  Danke für deine Anmeldung
 button: 
-  label: "Learn More"
-  link: "#"
-image: "images/spotlight01.jpg"
+  label: "Zur Anmeldung"
+  link: "https://docs.google.com/forms/d/e/1FAIpQLSei9V11VVsghmyeCzweoFZgm6L6SL9JMNAspZ34Xn33IbgL7Q/viewform?usp=sf_link"
+image: "images/savethedate.jpg"
