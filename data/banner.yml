@@ -1,12 +1,18 @@
 ####################### Banner #########################
-style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
-title : "Stefanie & Noah"
+style: "style2 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right color1"
+title : "Wir heiraten!"
 subtitle: |
-  Wilkommen zu unserer Hochzeit!
-content : |
+  Willkommen zur Hochzeit von Stefanie & Noah.
+notice : |
+  <b>Hinweis:</b> Natürlich seid Ihr auch eingeladen zum Apéro nach der Ziviltrauung am späteren Nachmittag vom <b>02.08.2023</b>!
+# content : |
+#   Hallo velo
+decorimage : "images/leaf1.png"
    
 button:
-  label : "Save the Date Anmeldung"
+  label : "Save the Date Umfrage"
   link : "https://docs.google.com/forms/d/e/1FAIpQLSei9V11VVsghmyeCzweoFZgm6L6SL9JMNAspZ34Xn33IbgL7Q/viewform?usp=sf_link"
-image : "images/schwarsee2s.jpeg"
+
+image : "images/schwarsee3.jpg"
+# image : "images/us/full/us_16.jpeg"
 
