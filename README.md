@@ -6,3 +6,4 @@
 
 ```
 
+Image resizing with `converseen`.
