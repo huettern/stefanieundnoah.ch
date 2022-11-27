@@ -407,6 +407,18 @@
 			z-index: 1;
 		}
 
+		.notice {
+			// @include padding(_size(padding, default) * 0.75, _size(padding, default) * 0.75);
+			padding: 1em 1em 1em 1em; 
+			position: relative;
+			width: (_size(inner) * 0.625);
+			max-width: 100%;
+			background-color: white;
+			border-radius: _size(border-radius-alt);
+			margin-bottom: _size(element-margin);
+			z-index: 0;
+		}
+
 		.image {
 			@include vendor('flex-grow', '0');
 			@include vendor('flex-shrink', '0');
@@ -428,6 +440,14 @@
 				height: 100%;
 				border-radius: 0;
 			}
+		}
+
+		.decorimage {
+			position: absolute;
+			right: 0;
+			top: 0;
+			z-index: -1;
+			max-width: 75%;
 		}
 
 		@include breakpoint('<=xlarge') {

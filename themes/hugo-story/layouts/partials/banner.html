@@ -3,10 +3,12 @@
     <div class="content">
         {{ with .title }}<h1>{{ . }}</h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
+        {{ with .notice }}<p class="notice">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         {{ with .button }}<ul class="actions stacked">
             <li><a href="{{ .link }}" class="button primary large wide smooth-scroll-middle">{{ .label }}</a></li>
         </ul>{{ end }}
+        {{ with .decorimage }}<img src="{{.}}" class="decorimage"/>{{end}}
     </div>
     {{ with .image }}<div class="image">
         <img src="{{.}}" alt="Hugo Story" />
