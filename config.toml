@@ -11,7 +11,7 @@ baseURL= "https://stefanieundnoah.ch"
 ## -----------------------------------------------
 
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
-# googleAnalytics = "your-google-analytics-id"
+googleAnalytics = "G-85GMPY9ZJK"
 
 
 ## -----------------------------------------------
