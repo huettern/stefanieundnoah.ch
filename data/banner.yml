@@ -10,8 +10,11 @@ notice : |
 decorimage : "images/leaf1.png"
    
 button:
-  label : "Save the Date Umfrage"
+  label : "Anmeldung Apéro"
   link : "https://docs.google.com/forms/d/e/1FAIpQLSei9V11VVsghmyeCzweoFZgm6L6SL9JMNAspZ34Xn33IbgL7Q/viewform?usp=sf_link"
+buttonsec:
+  label : "Spende"
+  link : "https://together.krebsforschung.ch/Noah-Huetter/myevent"
 
 image : "images/schwarsee3.jpg"
 # image : "images/us/full/us_16.jpeg"

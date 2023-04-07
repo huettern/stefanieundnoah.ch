@@ -5,9 +5,14 @@
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .notice }}<p class="notice">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
-        {{ with .button }}<ul class="actions stacked">
-            <li><a href="{{ .link }}" class="button primary large wide smooth-scroll-middle">{{ .label }}</a></li>
-        </ul>{{ end }}
+        <div class="buttons">
+        {{ with .button }}
+        <a href="{{ .link }}" class="button primary large wide smooth-scroll-middle">{{ .label }}</a>
+        {{ end }}
+        {{ with .buttonsec }}
+        <a href="{{ .link }}" class="button large wide smooth-scroll-middle">{{ .label }}</a>
+        {{ end }}
+        </div>
         {{ with .decorimage }}<img src="{{.}}" class="decorimage"/>{{end}}
     </div>
     {{ with .image }}<div class="image">

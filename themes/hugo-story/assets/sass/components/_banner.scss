@@ -450,6 +450,19 @@
 			max-width: 75%;
 		}
 
+		.buttons {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin-bottom: 1rem;
+
+			a {
+				// width: 10%;
+				margin: 2px;
+			}
+			
+		}
+
 		@include breakpoint('<=xlarge') {
 			@include padding(_size(padding, xlarge) * 0.75, _size(padding, xlarge) * 0.75);
 
