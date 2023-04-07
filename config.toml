@@ -20,7 +20,7 @@ googleAnalytics = "G-85GMPY9ZJK"
 
 [Params]
   description = ""
-  logo = "images/schwarsee2m.png"
+  logo = "images/logo.png"
   favicon = true
 
 [Params.social]
