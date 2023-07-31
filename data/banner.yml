@@ -3,18 +3,27 @@ style: "style2 orient-left content-align-left image-position-right fullscreen on
 title : "Wir heiraten!"
 subtitle: |
   Willkommen zur Hochzeit von Stefanie & Noah.
-# notice : |
-#   <b>Hinweis:</b> Natürlich seid Ihr auch eingeladen zum Apéro nach der Ziviltrauung am späteren Nachmittag vom <b>02. August 2023</b>!
-# content : |
-#   Hallo velo
+notice : |
+  Der Apéro wird nach dem <b>Schlechtwetter</b> Programm abgehalten. Das heisst, ab <b>17:00 Uhr</b> im Gemeindesaal an der Bremgartenstrasse 2 in 5443 <b>Niederrohrdorf</b>.
+content : |
+  Wir empfehlen allen Gästen mit dem öffentlichen Verkehr anzureisen.
+  Die Bushaltestelle <b>Gemeindezentrum</b> befindet sich unmittelbar vor dem Eingang ins Gemeindehaus.
+  <br><br>
+  Folgende Parklätze sind in der Nähe vom Gemeindesaal:
+  <li> Migros Voi, gleich beim Kreisel links
+  <li> Blaue Zone beim Coop
+  <li> Blaue Zone Parkhaus Zentrum
+  <li> Katholische Kirche
+  <br><br>
+  <iframe src="https://snazzymaps.com/embed/511777" width="100%" height="600px" style="border:none;"></iframe>
 decorimage : "images/leaf1.png"
    
 button:
-  label : "Anmeldung Apéro"
-  link : "https://forms.gle/ws2mjWDzFEWVfpH56"
-buttonsec:
   label : "Spende"
   link : "https://together.krebsforschung.ch/Noah-Huetter/myevent"
+buttonsec:
+  label : "Map Link"
+  link : "https://goo.gl/maps/jgiVyF23o42xspDi9"
 
 image : "images/schwarsee3.jpg"
 # image : "images/us/full/us_16.jpeg"

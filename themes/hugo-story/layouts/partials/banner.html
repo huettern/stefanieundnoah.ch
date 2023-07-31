@@ -4,15 +4,17 @@
         {{ with .title }}<h1>{{ . }}</h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .notice }}<p class="notice">{{ . | safeHTML }}</p>{{ end }}
-        {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         <div class="buttons">
-        {{ with .button }}
-        <a href="{{ .link }}" class="button primary large wide smooth-scroll-middle">{{ .label }}</a>
-        {{ end }}
-        {{ with .buttonsec }}
-        <a href="{{ .link }}" class="button large wide smooth-scroll-middle">{{ .label }}</a>
-        {{ end }}
+            {{ with .button }}
+            <a href="{{ .link }}" class="button primary large wide smooth-scroll-middle">{{ .label }}</a>
+            {{ end }}
+            {{ with .buttonsec }}
+            <a href="{{ .link }}" class="button large wide smooth-scroll-middle">{{ .label | safeHTML }}</a>
+            {{ end }}
         </div>
+    <div style="text-align: center; list-style-position: inside;">
+        {{ with .content }}{{ . | safeHTML }}{{ end }}
+    </div>
         {{ with .decorimage }}<img src="{{.}}" class="decorimage"/>{{end}}
     </div>
     {{ with .image }}<div class="image">
